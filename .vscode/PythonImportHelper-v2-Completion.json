@@ -1,0 +1,1219 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argv",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "exists",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "conditionals",
+        "description": "conditionals",
+        "peekOfCode": "age = 30\nif age > 16 :\n    print 'you are old enough to drive'\nelse:\n    print 'you are not old enough to drive'\nif age >= 21 :\n    print 'you are old enough to drive a tractor'\nelif age >=16 :\n    print 'you are old enough to drive a car'\nelse:",
+        "detail": "conditionals",
+        "documentation": {}
+    },
+    {
+        "label": "super_villains",
+        "kind": 5,
+        "importPath": "dictionaries",
+        "description": "dictionaries",
+        "peekOfCode": "super_villains = {\n    'captain cold' : 'leonard snart',\n    'mirror master': 'sam scudder',\n    'pied piper'   : 'thomas peterson'\n}\n#prints value for captain cold\nprint super_villains['captain cold']\n#deletes mirror master key and value\ndel super_villains['mirror master']\n#prints all keys and values",
+        "detail": "dictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ex10",
+        "description": "ex10",
+        "peekOfCode": "age = raw_input()\nprint \"how tall are you?\"\nheight = raw_input()\nprint \"How much do you weigh?\",\nweight = raw_input()\n#prints what has been stored in age, height and weight\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\n    age, height, weight)",
+        "detail": "ex10",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "ex10",
+        "description": "ex10",
+        "peekOfCode": "height = raw_input()\nprint \"How much do you weigh?\",\nweight = raw_input()\n#prints what has been stored in age, height and weight\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\n    age, height, weight)",
+        "detail": "ex10",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "ex10",
+        "description": "ex10",
+        "peekOfCode": "weight = raw_input()\n#prints what has been stored in age, height and weight\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\n    age, height, weight)",
+        "detail": "ex10",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ex11",
+        "description": "ex11",
+        "peekOfCode": "age = raw_input(\"how old are you?\")\nheight = raw_input(\"how tall are you?\")\nweight = raw_input(\"How much do you weigh? \")\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\nage, height, weight)",
+        "detail": "ex11",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "ex11",
+        "description": "ex11",
+        "peekOfCode": "height = raw_input(\"how tall are you?\")\nweight = raw_input(\"How much do you weigh? \")\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\nage, height, weight)",
+        "detail": "ex11",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "ex11",
+        "description": "ex11",
+        "peekOfCode": "weight = raw_input(\"How much do you weigh? \")\nprint \"So, you're %r old, %r tall and %r heavy.\" % (\nage, height, weight)",
+        "detail": "ex11",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "ex13",
+        "description": "ex13",
+        "peekOfCode": "prompt = '...'\nprint \"HI %s, I'm the %s script.\" %(user_name, script)\nprint \"I'd like to ask you a few questions.\"\nprint \"Do you like me %s?\" % user_name\nlikes = raw_input(prompt)\nprint \"where do you live %s?\" % user_name\nlives = raw_input(prompt)\nprint \"what kind of computer do you have?\"\ncomputer = raw_input(prompt)\nprint \"\"\"Alright, so you said %r about liking me. You live in %r.",
+        "detail": "ex13",
+        "documentation": {}
+    },
+    {
+        "label": "likes",
+        "kind": 5,
+        "importPath": "ex13",
+        "description": "ex13",
+        "peekOfCode": "likes = raw_input(prompt)\nprint \"where do you live %s?\" % user_name\nlives = raw_input(prompt)\nprint \"what kind of computer do you have?\"\ncomputer = raw_input(prompt)\nprint \"\"\"Alright, so you said %r about liking me. You live in %r.\nNot sure where that is. And you have a %r computer.\"\"\" % (likes, lives, computer)",
+        "detail": "ex13",
+        "documentation": {}
+    },
+    {
+        "label": "lives",
+        "kind": 5,
+        "importPath": "ex13",
+        "description": "ex13",
+        "peekOfCode": "lives = raw_input(prompt)\nprint \"what kind of computer do you have?\"\ncomputer = raw_input(prompt)\nprint \"\"\"Alright, so you said %r about liking me. You live in %r.\nNot sure where that is. And you have a %r computer.\"\"\" % (likes, lives, computer)",
+        "detail": "ex13",
+        "documentation": {}
+    },
+    {
+        "label": "computer",
+        "kind": 5,
+        "importPath": "ex13",
+        "description": "ex13",
+        "peekOfCode": "computer = raw_input(prompt)\nprint \"\"\"Alright, so you said %r about liking me. You live in %r.\nNot sure where that is. And you have a %r computer.\"\"\" % (likes, lives, computer)",
+        "detail": "ex13",
+        "documentation": {}
+    },
+    {
+        "label": "txt",
+        "kind": 5,
+        "importPath": "ex14",
+        "description": "ex14",
+        "peekOfCode": "txt = open(filename)\n#print out the file named in the argument\nprint \"here's your file %r:\" % filename\nprint txt.read()\n#prints it out again\nprint \"type of filename again\"\nfile_again = raw_input(\"> \")\ntxt_again = open(file_again)\nprint txt_again.read()",
+        "detail": "ex14",
+        "documentation": {}
+    },
+    {
+        "label": "file_again",
+        "kind": 5,
+        "importPath": "ex14",
+        "description": "ex14",
+        "peekOfCode": "file_again = raw_input(\"> \")\ntxt_again = open(file_again)\nprint txt_again.read()",
+        "detail": "ex14",
+        "documentation": {}
+    },
+    {
+        "label": "txt_again",
+        "kind": 5,
+        "importPath": "ex14",
+        "description": "ex14",
+        "peekOfCode": "txt_again = open(file_again)\nprint txt_again.read()",
+        "detail": "ex14",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "ex15",
+        "description": "ex15",
+        "peekOfCode": "target = open(filename, 'w')\n#deleting the file\nprint \"Truncating the file. Goodbye!\"\ntarget.truncate()\n#changing the content in the file\nprint \"Now I'm going to ask you for three lines.\"\n#what will be written in the file\nline1 = raw_input(\"line 1: \")\nline2 = raw_input(\"line 2: \")\nline3 = raw_input(\"line 3: \")",
+        "detail": "ex15",
+        "documentation": {}
+    },
+    {
+        "label": "line1",
+        "kind": 5,
+        "importPath": "ex15",
+        "description": "ex15",
+        "peekOfCode": "line1 = raw_input(\"line 1: \")\nline2 = raw_input(\"line 2: \")\nline3 = raw_input(\"line 3: \")\n#writing the file\nprint \"I'm going to write these to the file.\"\ntarget.write(line1)\ntarget.write(\"\\n\")\ntarget.write(line2)\ntarget.write(\"\\n\")\ntarget.write(line3)",
+        "detail": "ex15",
+        "documentation": {}
+    },
+    {
+        "label": "line2",
+        "kind": 5,
+        "importPath": "ex15",
+        "description": "ex15",
+        "peekOfCode": "line2 = raw_input(\"line 2: \")\nline3 = raw_input(\"line 3: \")\n#writing the file\nprint \"I'm going to write these to the file.\"\ntarget.write(line1)\ntarget.write(\"\\n\")\ntarget.write(line2)\ntarget.write(\"\\n\")\ntarget.write(line3)\ntarget.write(\"\\n\")",
+        "detail": "ex15",
+        "documentation": {}
+    },
+    {
+        "label": "line3",
+        "kind": 5,
+        "importPath": "ex15",
+        "description": "ex15",
+        "peekOfCode": "line3 = raw_input(\"line 3: \")\n#writing the file\nprint \"I'm going to write these to the file.\"\ntarget.write(line1)\ntarget.write(\"\\n\")\ntarget.write(line2)\ntarget.write(\"\\n\")\ntarget.write(line3)\ntarget.write(\"\\n\")\n#closing the file",
+        "detail": "ex15",
+        "documentation": {}
+    },
+    {
+        "label": "in_file",
+        "kind": 5,
+        "importPath": "ex16",
+        "description": "ex16",
+        "peekOfCode": "in_file = open(from_file)\nindata = in_file.read()\nprint \"The input file is %d bytes long\" % len(indata)\nprint \"Does the output file exist? %r\" % exists(to_file)\nprint \"Ready, hit RETURN to continue, CTRL- C to abort.\"\nraw_input()\nout_file = open(to_file, 'w')\nout_file.write(indata)\nprint \"Alright, all done.\"\nout_file.close()",
+        "detail": "ex16",
+        "documentation": {}
+    },
+    {
+        "label": "indata",
+        "kind": 5,
+        "importPath": "ex16",
+        "description": "ex16",
+        "peekOfCode": "indata = in_file.read()\nprint \"The input file is %d bytes long\" % len(indata)\nprint \"Does the output file exist? %r\" % exists(to_file)\nprint \"Ready, hit RETURN to continue, CTRL- C to abort.\"\nraw_input()\nout_file = open(to_file, 'w')\nout_file.write(indata)\nprint \"Alright, all done.\"\nout_file.close()\nin_file.close()",
+        "detail": "ex16",
+        "documentation": {}
+    },
+    {
+        "label": "out_file",
+        "kind": 5,
+        "importPath": "ex16",
+        "description": "ex16",
+        "peekOfCode": "out_file = open(to_file, 'w')\nout_file.write(indata)\nprint \"Alright, all done.\"\nout_file.close()\nin_file.close()",
+        "detail": "ex16",
+        "documentation": {}
+    },
+    {
+        "label": "print_two",
+        "kind": 2,
+        "importPath": "ex17",
+        "description": "ex17",
+        "peekOfCode": "def print_two(*args):\n    arg1, arg2 = args\n    print \"arg1: %r, arg2: %r\" % (arg1, arg2)\n# ok, here the function can only take two arguments\ndef print_two_again(arg1, arg2):\n    print \"arg1: %r, arg2: %r\" % (arg1, arg2\n# this just takes one argument\ndef print_one(arg1):\n    print \"arg1: %r\" % arg1\n# this one takes no arguments",
+        "detail": "ex17",
+        "documentation": {}
+    },
+    {
+        "label": "print_two_again",
+        "kind": 2,
+        "importPath": "ex17",
+        "description": "ex17",
+        "peekOfCode": "def print_two_again(arg1, arg2):\n    print \"arg1: %r, arg2: %r\" % (arg1, arg2\n# this just takes one argument\ndef print_one(arg1):\n    print \"arg1: %r\" % arg1\n# this one takes no arguments\ndef print_none():\n    print \"I got nothin'.\"\n#calls the above functions\nprint_two(\"Zed\",\"Shaw\")",
+        "detail": "ex17",
+        "documentation": {}
+    },
+    {
+        "label": "print_one",
+        "kind": 2,
+        "importPath": "ex17",
+        "description": "ex17",
+        "peekOfCode": "def print_one(arg1):\n    print \"arg1: %r\" % arg1\n# this one takes no arguments\ndef print_none():\n    print \"I got nothin'.\"\n#calls the above functions\nprint_two(\"Zed\",\"Shaw\")\nprint_two_again(\"Zed\",\"Shaw\")\nprint_one(\"First!\")\nprint_none()",
+        "detail": "ex17",
+        "documentation": {}
+    },
+    {
+        "label": "print_none",
+        "kind": 2,
+        "importPath": "ex17",
+        "description": "ex17",
+        "peekOfCode": "def print_none():\n    print \"I got nothin'.\"\n#calls the above functions\nprint_two(\"Zed\",\"Shaw\")\nprint_two_again(\"Zed\",\"Shaw\")\nprint_one(\"First!\")\nprint_none()",
+        "detail": "ex17",
+        "documentation": {}
+    },
+    {
+        "label": "cheese_and_crackers",
+        "kind": 2,
+        "importPath": "ex18",
+        "description": "ex18",
+        "peekOfCode": "def cheese_and_crackers(cheese_count, boxes_of_crackers):\n    print \"You have %d cheeses!\" % cheese_count\n    print \"You have %d boxes of crackers!\" % boxes_of_crackers\n    print \"Man that's enough for a party!\"\n    print \"Get a blanket.\\n\"\nprint \"we can just give the function numbers directly\"\ncheese_and_crackers(20, 30)\nprint \"or we can use variables from our script\"\namount_of_cheese = 10\namount_of_crackers = 50",
+        "detail": "ex18",
+        "documentation": {}
+    },
+    {
+        "label": "amount_of_cheese",
+        "kind": 5,
+        "importPath": "ex18",
+        "description": "ex18",
+        "peekOfCode": "amount_of_cheese = 10\namount_of_crackers = 50\ncheese_and_crackers(amount_of_cheese, amount_of_crackers)\nprint \"We can even do math inside too:\"\ncheese_and_crackers(10 + 20, 5 + 6)\nprint \"And we can combine the two, variables and math:\"\ncheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)",
+        "detail": "ex18",
+        "documentation": {}
+    },
+    {
+        "label": "amount_of_crackers",
+        "kind": 5,
+        "importPath": "ex18",
+        "description": "ex18",
+        "peekOfCode": "amount_of_crackers = 50\ncheese_and_crackers(amount_of_cheese, amount_of_crackers)\nprint \"We can even do math inside too:\"\ncheese_and_crackers(10 + 20, 5 + 6)\nprint \"And we can combine the two, variables and math:\"\ncheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)",
+        "detail": "ex18",
+        "documentation": {}
+    },
+    {
+        "label": "print_all",
+        "kind": 2,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "def print_all(f):\n    print f.read()\ndef rewind(f):\n    print f.seek(0)\ndef print_a_line(line_count, f):\n    print line_count, f.readline()\ncurrent_file = open(conditionals.py)\nprint \"First let's print the whole file:\\n\"\nprint_all(current_file)\nprint \"Now let's rewind, kind of like a tape.\"",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "rewind",
+        "kind": 2,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "def rewind(f):\n    print f.seek(0)\ndef print_a_line(line_count, f):\n    print line_count, f.readline()\ncurrent_file = open(conditionals.py)\nprint \"First let's print the whole file:\\n\"\nprint_all(current_file)\nprint \"Now let's rewind, kind of like a tape.\"\nrewind(current_file)\nprint \"Let's print three lines:\"",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "print_a_line",
+        "kind": 2,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "def print_a_line(line_count, f):\n    print line_count, f.readline()\ncurrent_file = open(conditionals.py)\nprint \"First let's print the whole file:\\n\"\nprint_all(current_file)\nprint \"Now let's rewind, kind of like a tape.\"\nrewind(current_file)\nprint \"Let's print three lines:\"\ncurrent_line = 1\nprint_a_line(current_line, current_file)",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "current_file",
+        "kind": 5,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "current_file = open(conditionals.py)\nprint \"First let's print the whole file:\\n\"\nprint_all(current_file)\nprint \"Now let's rewind, kind of like a tape.\"\nrewind(current_file)\nprint \"Let's print three lines:\"\ncurrent_line = 1\nprint_a_line(current_line, current_file)\ncurrent_line = current_line + 1\nprint_a_line(current_line, current_file)",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "current_line",
+        "kind": 5,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "current_line = 1\nprint_a_line(current_line, current_file)\ncurrent_line = current_line + 1\nprint_a_line(current_line, current_file)\ncurrent_line = current_line + 1\nprint_a_line(current_line, current_file)",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "current_line",
+        "kind": 5,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "current_line = current_line + 1\nprint_a_line(current_line, current_file)\ncurrent_line = current_line + 1\nprint_a_line(current_line, current_file)",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "current_line",
+        "kind": 5,
+        "importPath": "ex19",
+        "description": "ex19",
+        "peekOfCode": "current_line = current_line + 1\nprint_a_line(current_line, current_file)",
+        "detail": "ex19",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "def add(a,b):\n    print 'adding %d + %d' % (a,b)\n    return a + b\ndef subtract(a,b):\n    print 'subtracting %d - %d' % (a,b)\n    return a - b\ndef multiply(a,b):\n    return a * b\ndef divide(a, b):\n    return a / b",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "def subtract(a,b):\n    print 'subtracting %d - %d' % (a,b)\n    return a - b\ndef multiply(a,b):\n    return a * b\ndef divide(a, b):\n    return a / b\n#calls the functions\nage = add(30, 5)\nheight = subtract(78, 4)",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "def multiply(a,b):\n    return a * b\ndef divide(a, b):\n    return a / b\n#calls the functions\nage = add(30, 5)\nheight = subtract(78, 4)\nweight = multiply(90, 2)\niq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "def divide(a, b):\n    return a / b\n#calls the functions\nage = add(30, 5)\nheight = subtract(78, 4)\nweight = multiply(90, 2)\niq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)\n# A puzzle for the extra credit, type it in anyway.\nprint \"Here is a puzzle.\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "age = add(30, 5)\nheight = subtract(78, 4)\nweight = multiply(90, 2)\niq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)\n# A puzzle for the extra credit, type it in anyway.\nprint \"Here is a puzzle.\"\nwhat = add(age, subtract(height, multiply(weight, divide(iq, 2))))\nprint \"That becomes: \", what, \"Can you do it by hand?\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "height",
+        "kind": 5,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "height = subtract(78, 4)\nweight = multiply(90, 2)\niq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)\n# A puzzle for the extra credit, type it in anyway.\nprint \"Here is a puzzle.\"\nwhat = add(age, subtract(height, multiply(weight, divide(iq, 2))))\nprint \"That becomes: \", what, \"Can you do it by hand?\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "weight = multiply(90, 2)\niq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)\n# A puzzle for the extra credit, type it in anyway.\nprint \"Here is a puzzle.\"\nwhat = add(age, subtract(height, multiply(weight, divide(iq, 2))))\nprint \"That becomes: \", what, \"Can you do it by hand?\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "iq",
+        "kind": 5,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "iq = divide(100, 2)\nprint \"Age: %d, Height: %d, Weight: %d, IQ: %d\" % (age, height, weight, iq)\n# A puzzle for the extra credit, type it in anyway.\nprint \"Here is a puzzle.\"\nwhat = add(age, subtract(height, multiply(weight, divide(iq, 2))))\nprint \"That becomes: \", what, \"Can you do it by hand?\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "what",
+        "kind": 5,
+        "importPath": "ex20",
+        "description": "ex20",
+        "peekOfCode": "what = add(age, subtract(height, multiply(weight, divide(iq, 2))))\nprint \"That becomes: \", what, \"Can you do it by hand?\"",
+        "detail": "ex20",
+        "documentation": {}
+    },
+    {
+        "label": "secret_formula",
+        "kind": 2,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "def secret_formula(started):\n\tjelly_beans = started * 500\n\tjars = jelly_beans / 1000\n\tcrates = jars / 100\n\treturn jelly_beans, jars, crates\n#declares the argument to be used will be 10000\nstart_point = 10000\nbeans, jars, crates = secret_formula(start_point)\nprint \"with a starting point of: %d\" % start_point\nprint \"we'd like %d beans, %d jars and %d crates.\" % (beans,jars,crates)",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "poem",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "poem = \"\"\"\n\\t the lovely world with logic so firmly planted cannot discern \\n the needs of love\"\"\"\nprint \"---------------\"\nprint poem\nprint \"---------------\"\n#declaring the variable five with the values inside it\nfive = 10 - 2 + 3 - 6\nprint \"This should be five: %s\" % five\n#function to multiply and divide so as to get the total number\ndef secret_formula(started):",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "five",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "five = 10 - 2 + 3 - 6\nprint \"This should be five: %s\" % five\n#function to multiply and divide so as to get the total number\ndef secret_formula(started):\n\tjelly_beans = started * 500\n\tjars = jelly_beans / 1000\n\tcrates = jars / 100\n\treturn jelly_beans, jars, crates\n#declares the argument to be used will be 10000\nstart_point = 10000",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "\tjelly_beans",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "\tjelly_beans = started * 500\n\tjars = jelly_beans / 1000\n\tcrates = jars / 100\n\treturn jelly_beans, jars, crates\n#declares the argument to be used will be 10000\nstart_point = 10000\nbeans, jars, crates = secret_formula(start_point)\nprint \"with a starting point of: %d\" % start_point\nprint \"we'd like %d beans, %d jars and %d crates.\" % (beans,jars,crates)",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "\tjars",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "\tjars = jelly_beans / 1000\n\tcrates = jars / 100\n\treturn jelly_beans, jars, crates\n#declares the argument to be used will be 10000\nstart_point = 10000\nbeans, jars, crates = secret_formula(start_point)\nprint \"with a starting point of: %d\" % start_point\nprint \"we'd like %d beans, %d jars and %d crates.\" % (beans,jars,crates)",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "\tcrates",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "\tcrates = jars / 100\n\treturn jelly_beans, jars, crates\n#declares the argument to be used will be 10000\nstart_point = 10000\nbeans, jars, crates = secret_formula(start_point)\nprint \"with a starting point of: %d\" % start_point\nprint \"we'd like %d beans, %d jars and %d crates.\" % (beans,jars,crates)",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "start_point",
+        "kind": 5,
+        "importPath": "ex24",
+        "description": "ex24",
+        "peekOfCode": "start_point = 10000\nbeans, jars, crates = secret_formula(start_point)\nprint \"with a starting point of: %d\" % start_point\nprint \"we'd like %d beans, %d jars and %d crates.\" % (beans,jars,crates)",
+        "detail": "ex24",
+        "documentation": {}
+    },
+    {
+        "label": "break_words",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def break_words(stuff):\n\twords = stuff.split(' ')\n\treturn words\n#sorts the words\ndef sort_words(words):\n\treturn sorted (words)\n#prints the first word after popping it off\ndef print_first_word(words):\n\tword = words.pop(0)\n\tprint word",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "sort_words",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def sort_words(words):\n\treturn sorted (words)\n#prints the first word after popping it off\ndef print_first_word(words):\n\tword = words.pop(0)\n\tprint word\n#prints the last word after popping it off\ndef print_last_word(words):\n\tword = words.pop(-1)\n\tprint word",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "print_first_word",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def print_first_word(words):\n\tword = words.pop(0)\n\tprint word\n#prints the last word after popping it off\ndef print_last_word(words):\n\tword = words.pop(-1)\n\tprint word\n#takes in full sentence and returns the sorted words\ndef sort_sentences(sentence):\n\twords = break_words(sentence)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "print_last_word",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def print_last_word(words):\n\tword = words.pop(-1)\n\tprint word\n#takes in full sentence and returns the sorted words\ndef sort_sentences(sentence):\n\twords = break_words(sentence)\n\treturn sort_words(words)\n#prints the first and last words of the sentence\ndef print_first_and_last(sentence):\n\twords = break_words(sentence)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "sort_sentences",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def sort_sentences(sentence):\n\twords = break_words(sentence)\n\treturn sort_words(words)\n#prints the first and last words of the sentence\ndef print_first_and_last(sentence):\n\twords = break_words(sentence)\n\tprint_first_word(words)\n\tprint_last_word(words)\n#sorts the words then prints out the first and last word\ndef print_first_and_last_sorted(sentence):",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "print_first_and_last",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def print_first_and_last(sentence):\n\twords = break_words(sentence)\n\tprint_first_word(words)\n\tprint_last_word(words)\n#sorts the words then prints out the first and last word\ndef print_first_and_last_sorted(sentence):\n\twords = sort_sentence(sentence)\n        print_first_word(words)\n        print_last_word(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "print_first_and_last_sorted",
+        "kind": 2,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "def print_first_and_last_sorted(sentence):\n\twords = sort_sentence(sentence)\n        print_first_word(words)\n        print_last_word(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\twords",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\twords = stuff.split(' ')\n\treturn words\n#sorts the words\ndef sort_words(words):\n\treturn sorted (words)\n#prints the first word after popping it off\ndef print_first_word(words):\n\tword = words.pop(0)\n\tprint word\n#prints the last word after popping it off",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\tword",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\tword = words.pop(0)\n\tprint word\n#prints the last word after popping it off\ndef print_last_word(words):\n\tword = words.pop(-1)\n\tprint word\n#takes in full sentence and returns the sorted words\ndef sort_sentences(sentence):\n\twords = break_words(sentence)\n\treturn sort_words(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\tword",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\tword = words.pop(-1)\n\tprint word\n#takes in full sentence and returns the sorted words\ndef sort_sentences(sentence):\n\twords = break_words(sentence)\n\treturn sort_words(words)\n#prints the first and last words of the sentence\ndef print_first_and_last(sentence):\n\twords = break_words(sentence)\n\tprint_first_word(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\twords",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\twords = break_words(sentence)\n\treturn sort_words(words)\n#prints the first and last words of the sentence\ndef print_first_and_last(sentence):\n\twords = break_words(sentence)\n\tprint_first_word(words)\n\tprint_last_word(words)\n#sorts the words then prints out the first and last word\ndef print_first_and_last_sorted(sentence):\n\twords = sort_sentence(sentence)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\twords",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\twords = break_words(sentence)\n\tprint_first_word(words)\n\tprint_last_word(words)\n#sorts the words then prints out the first and last word\ndef print_first_and_last_sorted(sentence):\n\twords = sort_sentence(sentence)\n        print_first_word(words)\n        print_last_word(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "\twords",
+        "kind": 5,
+        "importPath": "ex25",
+        "description": "ex25",
+        "peekOfCode": "\twords = sort_sentence(sentence)\n        print_first_word(words)\n        print_last_word(words)",
+        "detail": "ex25",
+        "documentation": {}
+    },
+    {
+        "label": "nissans",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "nissans = 20\ncabs = 100\nspace_in_a_cab = 4.0\ndrivers = 30\npassengers = 90\ncars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "cabs",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "cabs = 100\nspace_in_a_cab = 4.0\ndrivers = 30\npassengers = 90\ncars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "space_in_a_cab",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "space_in_a_cab = 4.0\ndrivers = 30\npassengers = 90\ncars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "drivers",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "drivers = 30\npassengers = 90\ncars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "passengers",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "passengers = 90\ncars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "cars_not_driven",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "cars_not_driven = cabs - drivers\ncars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")\nprint (\"We have\", passengers, \"to carpool today.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "cars_driven",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "cars_driven = drivers\ncarpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")\nprint (\"We have\", passengers, \"to carpool today.\\n\")\nprint (\"We need to put about\", average_passengers_per_car, \"in each cab.\\n\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "carpool_capacity",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "carpool_capacity = cars_driven * space_in_a_cab\naverage_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")\nprint (\"We have\", passengers, \"to carpool today.\\n\")\nprint (\"We need to put about\", average_passengers_per_car, \"in each cab.\\n\")\n# uncomment buses in line 11 above to see the error if undefined variables are used",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "average_passengers_per_car",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "average_passengers_per_car = passengers / cars_driven\nvehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")\nprint (\"We have\", passengers, \"to carpool today.\\n\")\nprint (\"We need to put about\", average_passengers_per_car, \"in each cab.\\n\")\n# uncomment buses in line 11 above to see the error if undefined variables are used\nprint (\"we have\", vehicles ,\" vehicles available for use\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "vehicles",
+        "kind": 5,
+        "importPath": "ex3",
+        "description": "ex3",
+        "peekOfCode": "vehicles = nissans + cabs #+buses\nprint (\"There are\", cabs, \"cabs available.\\n\")\nprint (\"There are only\", drivers, \"drivers available.\\n\")\nprint (\"There will be\", cars_not_driven, \"empty cabs today.\\n\")\nprint (\"We can transport\", carpool_capacity, \"people today.\\n\")\nprint (\"We have\", passengers, \"to carpool today.\\n\")\nprint (\"We need to put about\", average_passengers_per_car, \"in each cab.\\n\")\n# uncomment buses in line 11 above to see the error if undefined variables are used\nprint (\"we have\", vehicles ,\" vehicles available for use\")",
+        "detail": "ex3",
+        "documentation": {}
+    },
+    {
+        "label": "my_name",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_name = 'Zed A. Shaw'\nmy_age = 35 # not a lie\nmy_height = 74 # inches\nmy_weight = 180 # lbs\nmy_eyes = 'Blue'\nmy_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_age",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_age = 35 # not a lie\nmy_height = 74 # inches\nmy_weight = 180 # lbs\nmy_eyes = 'Blue'\nmy_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_height",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_height = 74 # inches\nmy_weight = 180 # lbs\nmy_eyes = 'Blue'\nmy_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))\nprint(\"His teeth are usually %s depending on the coffee.\\n\"%(my_teeth))",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_weight",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_weight = 180 # lbs\nmy_eyes = 'Blue'\nmy_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))\nprint(\"His teeth are usually %s depending on the coffee.\\n\"%(my_teeth))\n# this line is tricky, try to get it exactly right",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_eyes",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_eyes = 'Blue'\nmy_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))\nprint(\"His teeth are usually %s depending on the coffee.\\n\"%(my_teeth))\n# this line is tricky, try to get it exactly right\nprint(\"collectively %s is:\\n %d years\\n %d tall\\n %d heavy %\")",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_teeth",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_teeth = 'White'\nmy_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))\nprint(\"His teeth are usually %s depending on the coffee.\\n\"%(my_teeth))\n# this line is tricky, try to get it exactly right\nprint(\"collectively %s is:\\n %d years\\n %d tall\\n %d heavy %\")",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "my_hair",
+        "kind": 5,
+        "importPath": "ex4",
+        "description": "ex4",
+        "peekOfCode": "my_hair = 'Brown'\nprint(\"Let's talk about %s.\\n\"%(my_name)) # \"%s\" is a string modifier\nprint(\"He's %d inches tall\\n\"%(my_height)) # \"%d\" is an integer modifier\nprint(\"He's %d pounds heavy.\\n\"%(my_weight),\"Actually that's not too heavy.\\n\")\nprint(\"He's got %s eyes and %s hair.\\n\"%(my_eyes, my_hair))\nprint(\"His teeth are usually %s depending on the coffee.\\n\"%(my_teeth))\n# this line is tricky, try to get it exactly right\nprint(\"collectively %s is:\\n %d years\\n %d tall\\n %d heavy %\")",
+        "detail": "ex4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "x = \"There are %d types of people.\" % 10\nbinary =\"binary\"\ndo_not = \"don't\"\ny = \"Those who know %s and those who %s.\" % (binary, do_not)\n#prints what is stored in x\nprint(x)\nprint(y)\n# % is a formatter used for diplaying\n#print \"I said: %r.\" % x\n#print \"I also said: '%s'.\" % y",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "do_not",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "do_not = \"don't\"\ny = \"Those who know %s and those who %s.\" % (binary, do_not)\n#prints what is stored in x\nprint(x)\nprint(y)\n# % is a formatter used for diplaying\n#print \"I said: %r.\" % x\n#print \"I also said: '%s'.\" % y\n#hilarious = False\n#joke_evaluation = \"Isn't that joke so funny?! %r\"",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "y = \"Those who know %s and those who %s.\" % (binary, do_not)\n#prints what is stored in x\nprint(x)\nprint(y)\n# % is a formatter used for diplaying\n#print \"I said: %r.\" % x\n#print \"I also said: '%s'.\" % y\n#hilarious = False\n#joke_evaluation = \"Isn't that joke so funny?! %r\"\n#print joke_evaluation % hilarious",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "#hilarious",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "#hilarious = False\n#joke_evaluation = \"Isn't that joke so funny?! %r\"\n#print joke_evaluation % hilarious\n#w = \"This is the left side of...\"\n#e = \"a string with a right side.\"\n#print w + e",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "#joke_evaluation",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "#joke_evaluation = \"Isn't that joke so funny?! %r\"\n#print joke_evaluation % hilarious\n#w = \"This is the left side of...\"\n#e = \"a string with a right side.\"\n#print w + e",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "#w",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "#w = \"This is the left side of...\"\n#e = \"a string with a right side.\"\n#print w + e",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "#e",
+        "kind": 5,
+        "importPath": "ex5",
+        "description": "ex5",
+        "peekOfCode": "#e = \"a string with a right side.\"\n#print w + e",
+        "detail": "ex5",
+        "documentation": {}
+    },
+    {
+        "label": "end1",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end1 = \"C\"\nend2 = \"h\"\nend3 = \"e\"\nend4 = \"e\"\nend5 = \"s\"\nend6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end2",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end2 = \"h\"\nend3 = \"e\"\nend4 = \"e\"\nend5 = \"s\"\nend6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end3",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end3 = \"e\"\nend4 = \"e\"\nend5 = \"s\"\nend6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end4",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end4 = \"e\"\nend5 = \"s\"\nend6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end5",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end5 = \"s\"\nend6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end6",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end6 = \"e\"\nend7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end7",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end7 = \"B\"\nend8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end8",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end8 = \"u\"\nend9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end9",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end9 = \"r\"\nend10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end10",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end10 = \"g\"\nend11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end11",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end11 = \"e\"\nend12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "end12",
+        "kind": 5,
+        "importPath": "ex6",
+        "description": "ex6",
+        "peekOfCode": "end12 = \"r\"\n#the comma is used for creating space in between the strings\n#the + sign is used for concatenating the strings\nprint (end1 + end2 + end3 + end4 + end5 + end6,end7 + end8 + end9 + end10 + end11 + end12)",
+        "detail": "ex6",
+        "documentation": {}
+    },
+    {
+        "label": "formatter",
+        "kind": 5,
+        "importPath": "ex7",
+        "description": "ex7",
+        "peekOfCode": "formatter = \"%r %r %r %r\"\nprint formatter % (1, 2, 3, 4)\nprint formatter % (\"one\", \"two\", \"three\", \"four\")\nprint formatter % (True, False, False, True)\nprint formatter % (formatter, formatter, formatter, formatter)\nprint formatter % (\n\"I had this thing.\",\n\"That you could type up right.\",\n\"But it didn't sing.\",\n\"So I said goodnight.\"",
+        "detail": "ex7",
+        "documentation": {}
+    },
+    {
+        "label": "days",
+        "kind": 5,
+        "importPath": "ex8",
+        "description": "ex8",
+        "peekOfCode": "days = \"Mon Tue Wed Thu Fri Sat Sun\"\n#used to make sure new lines are printed out after every month\nmonths = \"Jan\\nFeb\\nMar\\nApr\\nMay\\nJun\\nJul\\nAug\"\nprint \"Here are the days: \", days\nprint \"Here are the months: \", months\n#used to print out a huge chunk of words\nprint \"\"\"\nThere's something going on here.\nWith the three double- quotes.\nWe'll be able to type as much as we like.",
+        "detail": "ex8",
+        "documentation": {}
+    },
+    {
+        "label": "months",
+        "kind": 5,
+        "importPath": "ex8",
+        "description": "ex8",
+        "peekOfCode": "months = \"Jan\\nFeb\\nMar\\nApr\\nMay\\nJun\\nJul\\nAug\"\nprint \"Here are the days: \", days\nprint \"Here are the months: \", months\n#used to print out a huge chunk of words\nprint \"\"\"\nThere's something going on here.\nWith the three double- quotes.\nWe'll be able to type as much as we like.\nEven 4 lines if we want, or 5, or 6.",
+        "detail": "ex8",
+        "documentation": {}
+    },
+    {
+        "label": "tabby_cat",
+        "kind": 5,
+        "importPath": "ex9",
+        "description": "ex9",
+        "peekOfCode": "tabby_cat = \"\\tI'm tabbed in.\"\npersian_cat = \"I'm split\\non a line.\"\nbackslash_cat = \"I'm \\\\ a \\\\ cat.\"\n#creates a list on the output\nfat_cat = \"\"\"\nI'll do a list:\n\\t* Cat food\n\\t* Fishies\n\\t* Catnip\\n\\t* Grass\n\"\"\"",
+        "detail": "ex9",
+        "documentation": {}
+    },
+    {
+        "label": "persian_cat",
+        "kind": 5,
+        "importPath": "ex9",
+        "description": "ex9",
+        "peekOfCode": "persian_cat = \"I'm split\\non a line.\"\nbackslash_cat = \"I'm \\\\ a \\\\ cat.\"\n#creates a list on the output\nfat_cat = \"\"\"\nI'll do a list:\n\\t* Cat food\n\\t* Fishies\n\\t* Catnip\\n\\t* Grass\n\"\"\"\nprint tabby_cat",
+        "detail": "ex9",
+        "documentation": {}
+    },
+    {
+        "label": "backslash_cat",
+        "kind": 5,
+        "importPath": "ex9",
+        "description": "ex9",
+        "peekOfCode": "backslash_cat = \"I'm \\\\ a \\\\ cat.\"\n#creates a list on the output\nfat_cat = \"\"\"\nI'll do a list:\n\\t* Cat food\n\\t* Fishies\n\\t* Catnip\\n\\t* Grass\n\"\"\"\nprint tabby_cat\nprint persian_cat",
+        "detail": "ex9",
+        "documentation": {}
+    },
+    {
+        "label": "fat_cat",
+        "kind": 5,
+        "importPath": "ex9",
+        "description": "ex9",
+        "peekOfCode": "fat_cat = \"\"\"\nI'll do a list:\n\\t* Cat food\n\\t* Fishies\n\\t* Catnip\\n\\t* Grass\n\"\"\"\nprint tabby_cat\nprint persian_cat\nprint backslash_cat\nprint fat_cat",
+        "detail": "ex9",
+        "documentation": {}
+    },
+    {
+        "label": "addnumber",
+        "kind": 2,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "def addnumber(fnum,lnum):\n    sumnum = fnum +lnum\n    return sumnum\n#calls the function\nprint addnumber( 3,5)\n#interacts with user and saves data in variable\nprint ('what is your name?')\nname = sys.stdin.readline()\nprint ('hello ' + name)",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "functions",
+        "description": "functions",
+        "peekOfCode": "name = sys.stdin.readline()\nprint ('hello ' + name)",
+        "detail": "functions",
+        "documentation": {}
+    },
+    {
+        "label": "grocery_list",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "grocery_list = ['juice','tomatoes', 'potatoes',\n               'bananas']\nprint 'first item', grocery_list[0] #prints item at index 0 in list\ngrocery_list[0] = 'green juice' #changes the value of index 0\nprint 'first item', grocery_list[0]\nprint grocery_list[1:3] #prints items at index 1 and 2\n#lists within a list\nother_events = ['wash car', 'pick up kids', 'cash check']\nto_do_list = [other_events, grocery_list] #lists within a list\nprint to_do_list",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "grocery_list[0]",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "grocery_list[0] = 'green juice' #changes the value of index 0\nprint 'first item', grocery_list[0]\nprint grocery_list[1:3] #prints items at index 1 and 2\n#lists within a list\nother_events = ['wash car', 'pick up kids', 'cash check']\nto_do_list = [other_events, grocery_list] #lists within a list\nprint to_do_list\nprint to_do_list[1][2]\ngrocery_list.append('onions')\ngrocery_list.reverse()",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "other_events",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "other_events = ['wash car', 'pick up kids', 'cash check']\nto_do_list = [other_events, grocery_list] #lists within a list\nprint to_do_list\nprint to_do_list[1][2]\ngrocery_list.append('onions')\ngrocery_list.reverse()\ngrocery_list.sort()\ndel grocery_list[4]\nprint to_do_list\nto_do_list2 = other_events + grocery_list",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "to_do_list",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "to_do_list = [other_events, grocery_list] #lists within a list\nprint to_do_list\nprint to_do_list[1][2]\ngrocery_list.append('onions')\ngrocery_list.reverse()\ngrocery_list.sort()\ndel grocery_list[4]\nprint to_do_list\nto_do_list2 = other_events + grocery_list\nprint to_do_list2",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "to_do_list2",
+        "kind": 5,
+        "importPath": "lists",
+        "description": "lists",
+        "peekOfCode": "to_do_list2 = other_events + grocery_list\nprint to_do_list2\nprint len(to_do_list)\nprint len(to_do_list2)",
+        "detail": "lists",
+        "documentation": {}
+    },
+    {
+        "label": "grocery_list",
+        "kind": 5,
+        "importPath": "loops",
+        "description": "loops",
+        "peekOfCode": "grocery_list = ['juice','tomatoes', 'potatoes',\n               'bananas']\nfor y in grocery_list:\n    print y\nfor x in [2,3,4,5,6,7,8]:\n    print x\nnum_list = [[1,2,3],[10,20,30],[100,200,300]]\nfor  x in range(0,3):\n    for y in range(0,3):\n        print num_list[x][y]",
+        "detail": "loops",
+        "documentation": {}
+    },
+    {
+        "label": "num_list",
+        "kind": 5,
+        "importPath": "loops",
+        "description": "loops",
+        "peekOfCode": "num_list = [[1,2,3],[10,20,30],[100,200,300]]\nfor  x in range(0,3):\n    for y in range(0,3):\n        print num_list[x][y]\n#while loops\nrandom_num = random.randrange(0,100)\nwhile random_num != 15:\n    print random_num\n    random_num = random.randrange(0,100)\n#other method for while loop",
+        "detail": "loops",
+        "documentation": {}
+    },
+    {
+        "label": "random_num",
+        "kind": 5,
+        "importPath": "loops",
+        "description": "loops",
+        "peekOfCode": "random_num = random.randrange(0,100)\nwhile random_num != 15:\n    print random_num\n    random_num = random.randrange(0,100)\n#other method for while loop\ni = 0;\nwhile 1<=20:\n    if i%2 == 0:\n        print i\n    elif i == 9:",
+        "detail": "loops",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "loops",
+        "description": "loops",
+        "peekOfCode": "i = 0;\nwhile 1<=20:\n    if i%2 == 0:\n        print i\n    elif i == 9:\n        break\n    else:\n        i +=1\n        continue\n    i += 1",
+        "detail": "loops",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "objects",
+        "description": "objects",
+        "peekOfCode": "class Animal:\n    __name = \"\"\n    __height = 0\n    __weight = 0\n    __sound = 0\n    #constructor\n    def __init__(self, name, height, weight, sound):\n        self.__name = name\n        self.__height = height\n        self.__weight = weight",
+        "detail": "objects",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "script",
+        "description": "script",
+        "peekOfCode": "name = 'derik'\nprint name\n#numbers,lists,strings,dictionaries,tuples --> data types\nquote = '\\\"always remember you are unique\"'\nmultiline_quote = '''just like everyone else'''\nprint quote + multiline_quote\nprint (\"%s %s %s\" % ('i like the quote', quote,multiline_quote))",
+        "detail": "script",
+        "documentation": {}
+    },
+    {
+        "label": "quote",
+        "kind": 5,
+        "importPath": "script",
+        "description": "script",
+        "peekOfCode": "quote = '\\\"always remember you are unique\"'\nmultiline_quote = '''just like everyone else'''\nprint quote + multiline_quote\nprint (\"%s %s %s\" % ('i like the quote', quote,multiline_quote))",
+        "detail": "script",
+        "documentation": {}
+    },
+    {
+        "label": "multiline_quote",
+        "kind": 5,
+        "importPath": "script",
+        "description": "script",
+        "peekOfCode": "multiline_quote = '''just like everyone else'''\nprint quote + multiline_quote\nprint (\"%s %s %s\" % ('i like the quote', quote,multiline_quote))",
+        "detail": "script",
+        "documentation": {}
+    },
+    {
+        "label": "pi_tuple",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "pi_tuple = (3,1,4,5,9)\n#converts tuple to list\nnew_tuple = list(pi_tuple)\n#converts list to tuple\npi_tuple = tuple(new_tuple)\nprint pi_tuple\nprint new_tuple\nprint len(pi_tuple)\nprint min(pi_tuple)\nprint max(pi_tuple)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "new_tuple",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "new_tuple = list(pi_tuple)\n#converts list to tuple\npi_tuple = tuple(new_tuple)\nprint pi_tuple\nprint new_tuple\nprint len(pi_tuple)\nprint min(pi_tuple)\nprint max(pi_tuple)",
+        "detail": "tuples",
+        "documentation": {}
+    },
+    {
+        "label": "pi_tuple",
+        "kind": 5,
+        "importPath": "tuples",
+        "description": "tuples",
+        "peekOfCode": "pi_tuple = tuple(new_tuple)\nprint pi_tuple\nprint new_tuple\nprint len(pi_tuple)\nprint min(pi_tuple)\nprint max(pi_tuple)",
+        "detail": "tuples",
+        "documentation": {}
+    }
+]
